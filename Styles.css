@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-image:url("dark-honeycomb.png");
+    color: #fff6e7;
+    margin: 0;
+    
+}
+#profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#LinkedIN{
+    width: 100;
+    height: auto;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff6e7;
+    
+}
+
+a{
+    color: #f17f19;
+    text-decoration: none;
+    transition: color .15s linear;}
+a:hover{
+    color: #b86012;}
+
+footer{
+    background-color: black;
+    
+}
+header{
+    background-color: black;
+    margin-bottom: 20;
+}
+#nav-list{
+    margin: 0;
+}
