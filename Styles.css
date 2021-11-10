@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+html{
+    height: 100%;
+}
 body{
     text-align: center;
     background-color: #151517;
     color: whitesmoke;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     
 }
 #profile-pic{
@@ -32,7 +40,11 @@ body{
 #description{
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
+    text-align: center;
+=======
     text-align: left;
+>>>>>>> 4b7d0693b1b633362237fe80dc2ff6d87af9f9b4
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
@@ -53,6 +65,8 @@ a:hover{
     color: gray;}
 
 footer{
+    margin-top: auto;
+    width: 100%;
     background-color: black;
     padding-top: 10;
     padding-bottom: 5;
@@ -62,6 +76,96 @@ header{
     background-color:black;
     padding-top: 20;
     padding-bottom: 10;
+<<<<<<< HEAD
+}
+a.nav-link{
+    padding-right: 10;
+}
+#Name{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    color: whitesmoke;
+    padding-left: 20;
+    text-transform:uppercase;
+    font-size: 50;
+}
+#nav-list-head{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    color: whitesmoke;
+    padding-top: 30;
+    padding-left: 20;
+}
+
+#profile-pic{
+    padding: 20;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  textarea[name = message] {
+    max-width: 800;
+    min-width: 800;
+    height: 200;
+    margin-bottom: 30;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14;
+    
+    
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: whitesmoke;
+    padding: 14px 20px;
+    margin-bottom: 20;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #39853c;
+    
+  }
+
+  
+=======
 }
 a.nav-link{
     padding-right: 10;
@@ -91,3 +195,4 @@ a.nav-link{
 #profile-pic{
     padding: 20;
 }
+>>>>>>> 4b7d0693b1b633362237fe80dc2ff6d87af9f9b4
